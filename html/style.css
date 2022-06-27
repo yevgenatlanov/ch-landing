@@ -1340,6 +1340,13 @@ p {
     transform: none;
   }
 
+  .header-eight .header-image img {
+    min-width: 350px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+
   .contact-item-child {
     display: none !important;
   }
