@@ -2544,24 +2544,23 @@ p {
 
 }
 
+
 .Datenschutz p {
   margin-bottom: 30px;
   color: var(--dark-1) ;
+  font-size: 22px;
+  font-weight: 100;
   
 }
 
 .Datenschutz h3 {
   margin-bottom: 5px;
-  color: var(--dark-1) ;
+  color: var(--primary) ;
 } 
-
-
 
 .Datenschutz h2, h4 , h5{
   margin-bottom: 20px;
-  color: var(--black);
-  font-size: 18px;
-  font-weight: 600;
+  color: var(--primary) ;
   
 }
 
