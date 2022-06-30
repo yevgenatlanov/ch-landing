@@ -485,7 +485,30 @@
     let sidebarClose = document.querySelector(".sidebar-close .close");
 
 
+    function submitForm(e) {
+      e.preventDefault();
 
+      const formDataDict = Object.fromEntries(new FormData(e.target).entries());
+
+      var http = new XMLHttpRequest();
+      var url = "http://localhost:8081/sendform";
+      http.open("POST", url, true);
+      http.setRequestHeader('Content-Type', 'application/json');
+      http.responseType = 'json';
+      http.send(JSON.stringify(formDataDict));
+
+      console.log('get htpp response', http)
+  
+      http.onload = function () {
+        if (http.status === 200) {
+          console.log('statustext ok')
+          let pageForm = document.getElementsByClassName("page-form");
+          let result = document.getElementsByClassName("page-form-result");
+          pageForm[0].style.display = pageForm[0].style.display === 'none' ? 'inline-block' : 'none';
+          result[0].style.display = result[0].style.display === 'none' ? 'inline-block' : 'none';
+        }
+      };
+    }
 
     function changeLayout() {
       let segmentTwo = document.getElementsByClassName("segment-two");
