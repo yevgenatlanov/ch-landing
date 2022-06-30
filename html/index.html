@@ -598,6 +598,9 @@
       };
     }
 
+    const contactForm = document.getElementById('contact-form');
+    contactForm && contactForm.addEventListener('submit', submitForm);
+
     // function changeLayout() {
     //   let segmentTwo = document.getElementsByClassName("segment-two");
     //   let segmentOne = document.getElementsByClassName("segment-one");
