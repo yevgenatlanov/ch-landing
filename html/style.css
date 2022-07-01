@@ -449,6 +449,7 @@ p {
 .section-title-five p {
   color: var(--black);
   font-weight: 100;
+  font-size: 22px;
 }
 
 .made-in-ayroui{
@@ -892,6 +893,8 @@ p {
   color: var(--black);
   opacity: 1;
   width: 300px;
+  font-size: 22px;
+  font-weight: 100;
 }
 .header-eight .button {
   margin-top: 40px;
@@ -1081,7 +1084,7 @@ p {
 ===========================*/
 .services-eight {
   padding: 100px 0;
-  background-color: var(--light-2);
+  background-color: var(--white);
   text-align: center;
   align-items: center;
 }
@@ -1108,6 +1111,17 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
+.service-line {
+  height: 2px !important;
+  background-color: var(--primary-dark);
+  opacity: 1;
+}
+
+.single-services h4 {
+  color: var(--black) !important;
+  font-size: 22px;
+}
+
 .services-eight .first {
   
   background-color: var(--primary);
@@ -1123,11 +1137,11 @@ p {
 }
 
 .services-eight .second p{
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .services-eight .second{
-  margin-top: -25px;
+  /* margin-top: -25px; */
 }
 
 .services-eight .second h4{
@@ -1209,11 +1223,11 @@ p {
   border: 1px solid transparent;
 }
 
-.services-eight .single-services .service-content {
-  padding: 20px 40px;
+.single-services .service-content {
+  padding: 20px 30px;
 }
 .services-eight .single-services .service-content h4 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 20px;
   color: var(--primary-dark)
@@ -1317,7 +1331,7 @@ p {
   box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  padding: 50px 30px;
+  padding: 60px 30px;
   border: 2px solid transparent;
   border-radius: 20px;
 }
@@ -1445,8 +1459,12 @@ p {
 }
 
 .single-services p {
-  color: var(--primary-dark)
+  color: var(--primary-dark);
+  font-size: 22px;
+  font-weight: 100;
 }
+
+
 
 .single-middle {
   background-color: var(--primary-light);
@@ -1457,6 +1475,8 @@ p {
 .single-middle .services-title, p{
 
   color: var(--dark);
+  font-size: 22px;
+  font-weight: 100;
 }
 
 .single-middle p{
@@ -2039,7 +2059,7 @@ p {
   position: relative;
   z-index: 3;
   padding: 100px 0; 
-  background-color: var(--white);
+  background-color: var(--light-2);
   
 }
 
@@ -2220,6 +2240,7 @@ p {
 .contact-form-wrapper .section-title p {
   color: var(--black);
   font-weight: 100px;
+  font-size: 22px;
 }
 .contact-form-wrapper .contact-form input,
 .contact-form-wrapper .contact-form textarea {
@@ -2267,7 +2288,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--light-2);
+  background-color: var(--white);
   background-position: top center;
   z-index: -1;
   background-size: cover;
