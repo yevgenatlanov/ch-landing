@@ -829,8 +829,8 @@ p {
 }
 .header-eight .header-image img {
   width: 100%;
-  min-width: 700px;
-  margin-left: -20px;
+  min-width: 800px;
+  margin-left: -120px;
 }
 .header-eight .header-content .primary-btn {
   background: var(--primary);
@@ -889,7 +889,7 @@ p {
   display: block;
 }
 .header-eight .header-content p {
-  margin-top: 30px;
+  margin-top: 65px;
   color: var(--black);
   opacity: 1;
   width: 300px;
@@ -1118,7 +1118,7 @@ p {
 }
 
 .single-services h4 {
-  color: var(--black) !important;
+  color: var(--black);
   font-size: 22px;
 }
 
@@ -1145,7 +1145,7 @@ p {
 }
 
 .services-eight .second h4{
-  font-size: 22px !important
+  font-size: 26px !important
 }
 
 
@@ -2250,13 +2250,14 @@ p {
   background: transparent;
   border: 0px;
   border-bottom: 1px solid var(--gray-4);
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   width: 100%;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  opacity: 0.7;
 }
 @media (max-width: 767px) {
   .contact-form-wrapper .contact-form input,
