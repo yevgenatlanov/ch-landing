@@ -2247,6 +2247,7 @@ p {
   padding: 15px;
   /* border-radius: 30px; */
   /* border: 1px solid var(--gray-4); */
+  background: transparent;
   border: 0px;
   border-bottom: 1px solid var(--gray-4);
   margin-bottom: 25px;
