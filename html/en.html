@@ -354,12 +354,12 @@
             </div>
             <form id="contact-form" class="contact-form" method="post">
               <div class="row">
-                <input type="hidden" name="website" id="website" placeholder="Chairos" />
+                <input type="hidden" name="website" id="website" placeholder="chairos.de" value="chairos.de" />
                 <div class="col-md-12">
-                  <input type="text" name="Standort" id="Standort" placeholder="Location *" required />
+                  <input type="text" name="location" id="location" placeholder="Location *" required />
                 </div>
                 <div class="col-md-12">
-                  <input type="email" name="anzahlApartments" id="anzahlApartments" placeholder="Number apartments *"
+                  <input type="email" name="email" id="email" placeholder="E-mail *"
                     required />
                 </div>
 
@@ -611,7 +611,7 @@
       const formDataDict = Object.fromEntries(new FormData(e.target).entries());
 
       var http = new XMLHttpRequest();
-      var url = "https://b2bh-back-dev-nfsyp7o4fa-ey.a.run.app/sendform";
+      var url = "https://b2bh-back-nfsyp7o4fa-ey.a.run.app/sendform";
       http.open("POST", url, true);
       http.setRequestHeader('Content-Type', 'application/json');
       http.responseType = 'json';
